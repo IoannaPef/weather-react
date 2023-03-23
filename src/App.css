@@ -1,3 +1,8 @@
+.App {
+  max-width: 600px;
+  padding: 30px auto;
+  margin: 20px;
+}
 .App-wraper {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;

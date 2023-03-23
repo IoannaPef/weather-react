@@ -1,6 +1,7 @@
 import Weather from "./Weather";
 
 import './App.css';
+import "./Weather.css";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
         <Weather />
       </div>
       <p>
-        <a href="#">Open-source code,</a> by Ioanna Karagkani
+        <a href="https://github.com/IoannaPef/weather-react">
+          Open-source code,
+        </a>{" "}
+        by Ioanna Karagkani
       </p>
     </div>
   );
