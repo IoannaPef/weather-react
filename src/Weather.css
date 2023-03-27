@@ -1,4 +1,7 @@
-.Weather-form {
-    margin: 10px;
-    color: black;
+.Weather {
+    border: 2px solid  #dadde1;
+    border-radius: 4px;
+    color: rgb(135, 135, 135);
+    
 }
+    

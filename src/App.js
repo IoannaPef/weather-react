@@ -1,23 +1,25 @@
+import React from "react";
 import Weather from "./Weather";
 
-import './App.css';
-import "./Weather.css";
+import "./App.css";
+
 
 function App() {
   return (
     <div className="App">
-      <div className="App-wraper">
-        <header className="App-header">
-          <h1>Weather App</h1>
-        </header>
-        <Weather />
-      </div>
-      <p>
-        <a href="https://github.com/IoannaPef/weather-react">
+      <div className="container">
+        <footer className="App-header">
+          <Weather />
+        </footer>
+        <a
+          href="https://github.com/IoannaPef/weather-react"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           Open-source code,
         </a>{" "}
         by Ioanna Karagkani
-      </p>
+      </div>
     </div>
   );
 }
