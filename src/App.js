@@ -8,17 +8,17 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <footer className="App-header">
-          <Weather />
+        <Weather />
+        <footer>
+          <a
+            href="https://github.com/IoannaPef/weather-react"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Open-source code,
+          </a>{" "}
+          by Ioanna Karagkani
         </footer>
-        <a
-          href="https://github.com/IoannaPef/weather-react"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Open-source code,
-        </a>{" "}
-        by Ioanna Karagkani
       </div>
     </div>
   );
