@@ -17,9 +17,10 @@ export default function Weather(props) {
       time: new Date(response.data.time * 1000),
       description: response.data.condition.description,
       iconUrl:
-        "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png",
+        `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
       wind: response.data.wind.speed,
       city: response.data.city,
+      feelsLike: response.data.temperature.feels_like,
     });
   }
 
