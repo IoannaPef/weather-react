@@ -1,6 +1,7 @@
 import React from "react";
 import Weather from "./Weather";
 
+
 import "./App.css";
 
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Zug"/>
         <footer>
           <a
             href="https://github.com/IoannaPef/weather-react"
