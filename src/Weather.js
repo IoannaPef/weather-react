@@ -20,7 +20,7 @@ export default function Weather(props) {
       time: new Date(response.data.time * 1000),
       description: response.data.condition.description,
       icon:response.data.condition.icon,
-       
+      country:response.data.country,
       wind: response.data.wind.speed,
       city: response.data.city,
       feelsLike: response.data.temperature.feels_like,
@@ -60,7 +60,7 @@ export default function Weather(props) {
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-primary w-100"
+                className="btn btn-primary login w-90"
               />
             </div>
           </div>
