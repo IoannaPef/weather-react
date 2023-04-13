@@ -51,3 +51,9 @@
   background-color: #edbae2;
   color: rgb(107, 37, 82);
 }
+
+@media (max-width: 880) and (orientation: landscape) {
+  .Weather{
+    max-width: 100px;
+  }
+}

@@ -1,4 +1,5 @@
 .App {
+  max-width: 600px;
   position: relative;
   height: 100vh;
   width: 100%;
@@ -7,9 +8,16 @@
   justify-content: center;
   background-image: url("./images/clouds-2.jpg");
   background-size: cover;
+  margin: 30px auto;
 }
 
 .App footer {
+  
   font-size: 13px;
-  margin: 5px auto;
+  margin: 10px auto;
+  
 }
+
+
+
+
