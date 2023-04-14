@@ -45,15 +45,10 @@
   font-weight: 500;
   position: relative;
   line-height: 1;
-  top: -38px;
+  top: -40px;
 }
 .Weather .login{
   background-color: #edbae2;
   color: rgb(107, 37, 82);
 }
 
-@media (max-width: 880) and (orientation: landscape) {
-  .Weather{
-    max-width: 100px;
-  }
-}
