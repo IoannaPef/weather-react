@@ -12,7 +12,8 @@ function App() {
         <Weather defaultCity="Zug" />
         <footer>
           This project was coded by Ioanna Karagkani and is {""}
-          <a className="link"
+          <a
+            className="link"
             href="https://github.com/IoannaPef/weather-react"
             rel="noopener noreferrer"
             target="_blank"
@@ -20,7 +21,14 @@ function App() {
             open-sourced on GitHub
           </a>{" "}
           and {""}
-          <a className="link" href="/" target="_blank" rel="noopener noreferrer">hosted on Netlify</a>
+          <a
+            className="link"
+            href="https://stately-paletas-d37e53.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
